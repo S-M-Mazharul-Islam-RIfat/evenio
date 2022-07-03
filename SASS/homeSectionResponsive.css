@@ -1,0 +1,60 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*Colors*/
+/*Global*/
+::-moz-selection {
+  background-color: #FA0368;
+}
+::selection {
+  background-color: #FA0368;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*==========================*/
+@media screen and (max-width: 1180px) {
+  #home .container .navbarr ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 1050px) {
+  #home .homeContentWrapper .homeContent h1 {
+    font-size: 162px;
+  }
+  #home .homeContentWrapper .homeContent h2 {
+    font-size: 75px;
+  }
+}
+@media screen and (max-width: 770px) {
+  #home .homeContentWrapper .homeContent h1 {
+    font-size: 155px;
+  }
+  #home .homeContentWrapper .homeContent h2 {
+    font-size: 68px;
+  }
+  #home .clockWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  #home .homeContentWrapper .homeContent h1 {
+    font-size: 132px;
+  }
+  #home .homeContentWrapper .homeContent h2 {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #home .homeContentWrapper .homeContent h1 {
+    font-size: 123px;
+  }
+  #home .homeContentWrapper .homeContent h2 {
+    font-size: 55px;
+  }
+}/*# sourceMappingURL=homeSectionResponsive.css.map */

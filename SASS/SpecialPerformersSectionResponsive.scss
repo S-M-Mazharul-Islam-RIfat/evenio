@@ -1,0 +1,216 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// font-family: 'Permanent Marker', cursive;
+// font-family: 'Poppins', sans-serif;
+
+/*Colors*/
+$mainColor:#FA0368;
+$white:#FFFFFF;
+$black:#2D2D2D;
+
+/*Global*/
+::selection{
+    background-color: $mainColor;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*==========================*/
+
+@media screen and (max-width:1300px){
+    #specialPerformers{
+        padding-top: 135px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    #specialPerformers{
+        .container{
+            .SP1{
+                .icons{
+                    left: -53px;
+                }
+            }
+            .SP2{
+                .icons{
+                    left: -52px;
+                }
+            }
+            .SP3{
+                .icons{
+                    left: -52px;
+                }
+            }
+            .SP4{
+                .icons{
+                    left: -53px;
+                }
+            }
+            .SP5{
+                .icons{
+                    left: -52px;
+                }
+            }
+            .SP6{
+                .icons{
+                    left: -53px;
+                }
+            }
+            .SP7{
+                .icons{
+                    left: -52px;
+                }
+            }
+            .SP8{
+                .icons{
+                    left: -52px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:992px){
+    #specialPerformers{
+        .container{
+            .SP1{
+                .icons{
+                    left: -17px;
+                }
+            }
+            .SP2{
+                .icons{
+                    left: -16px;
+                }
+            }
+            .SP3{
+                .icons{
+                    left: -16px;
+                }
+            }
+            .SP4{
+                .icons{
+                    left: -16px;
+                }
+            }
+            .SP5{
+                .icons{
+                    left: -16px;
+                }
+            }
+            .SP6{
+                .icons{
+                    left: -17px;
+                }
+            }
+            .SP7{
+                .icons{
+                    left: -16px;
+                }
+            }
+            .SP8{
+                .icons{
+                    left: -16px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    #specialPerformers{
+        .container{
+            .SP1{
+                .icons{
+                    left: 154px;
+                }
+            }
+            .SP2{
+                .icons{
+                    left: 155px;
+                }
+            }
+            .SP3{
+                .icons{
+                    left: 154px;
+                }
+            }
+            .SP4{
+                .icons{
+                    left: 155px;
+                }
+            }
+            .SP5{
+                .icons{
+                    left: 155px;
+                }
+            }
+            .SP6{
+                .icons{
+                    left: 154px;
+                }
+            }
+            .SP7{
+                .icons{
+                    left: 154px;
+                }
+            }
+            .SP8{
+                .icons{
+                    left: 154px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:576px){
+    #specialPerformers{
+        .container{
+            .SP1{
+                .icons{
+                    left: 150px;
+                }
+            }
+            .SP2{
+                .icons{
+                    left: 181px;
+                }
+            }
+            .SP3{
+                .icons{
+                    left: 180px;
+                }
+            }
+            .SP4{
+                .icons{
+                    left: 181px;
+                }
+            }
+            .SP5{
+                .icons{
+                    left: 181px;
+                }
+            }
+            .SP6{
+                .icons{
+                    left: 180px;
+                }
+            }
+            .SP7{
+                .icons{
+                    left: 180px;
+                }
+            }
+            .SP8{
+                .icons{
+                    left: 180px;
+                }
+            }
+        }
+    }
+}

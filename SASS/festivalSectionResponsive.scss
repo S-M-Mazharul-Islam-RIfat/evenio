@@ -1,0 +1,109 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// font-family: 'Permanent Marker', cursive;
+// font-family: 'Poppins', sans-serif;
+
+/*Colors*/
+$mainColor:#FA0368;
+$white:#FFFFFF;
+$black:#2D2D2D;
+
+/*Global*/
+::selection{
+    background-color: $mainColor;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*==========================*/
+@media screen and (max-width:1300px){
+    #festival{
+        height: 970px;
+        .container{
+            .girlImage{
+                display: none;
+            }
+            .boyImage{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px){
+    #festival{
+        .container{
+            .videoImageWrapper{
+                .play-btn{
+                    left: -20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:772px){
+    #festival{
+        height: 978px;
+        .container{
+            .textPart{
+                padding-top: 160px;
+                h2{
+                    font-size: 37px;
+                }
+                h2:before{
+                    content: "";
+                    display: block;
+                    width: 65px;
+                    height: 5px;
+                    background: #FA0368;
+                    position: absolute;
+                    top: 39%;
+                    left: 44%;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+            .videoImageWrapper{
+                .play-btn{
+                    left: -36px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:520px){
+    #festival{
+        .container{
+            .textPart{
+                h2{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 12px
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:460px){
+    #festival{
+        .container{
+            .textPart{
+                h2{
+                    font-size: 33px;
+                }
+                p{
+                    font-size: 10px
+                }
+            }
+        }
+    }
+}
